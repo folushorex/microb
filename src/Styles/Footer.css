@@ -1,0 +1,211 @@
+.Footer {
+    width: 100%;
+    height: 600px;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   background-color:#000;
+      justify-content: space-between;
+    }
+  
+
+
+
+  .footer-content {
+    width:100%;
+    height:400px;
+    margin-top: 100px;
+    display:flex;
+    flex-direction:row;
+    place-items:center;
+    border-radius: 20px;
+    border: 5px solid #000;
+    background:white;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+  }
+
+
+
+  .footer-left{
+    width: 40%;
+    height:200px;
+    margin:50px;
+    margin-right:90px;
+    gap:30px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    flex-direction:column;
+    
+  }
+
+
+
+  .footer-left .holder{
+
+   width:200px;
+   display:flex;
+   flex-direction: row;
+  }
+
+
+ .holder img{
+    margin: 10px;
+ }
+
+ 
+ .footer-left .logo{
+  margin-top: 50px;
+ 
+}
+
+ /*Footer Middle*/
+
+ .footer-middle{
+    width:50%;
+    height:200px;
+    margin-right:90px;
+    text-align: center;
+    justify-content: center;
+ }
+
+
+ .footer-middle h1{
+  color: #000;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 30px;
+  font-style: normal;
+  font-weight:bolder;
+  line-height: 120%; /* 36px */
+  text-transform: uppercase;
+ }
+
+
+
+ .footer-middle img{
+  margin:20px;
+  width:50px;
+  height:50px;
+ }
+
+
+ .footer-middle p{
+  font-weight: bold;
+  margin-bottom:20px;
+ }
+
+
+
+ .footer-middle h3{
+  text-transform: uppercase;
+ }
+ 
+
+ .font1 {
+  text-align: center;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 24px */
+  text-transform: uppercase;
+ }
+
+
+
+ .font2 {
+  color: #000;
+  font-family: Pridi;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+  text-transform: uppercase;
+ }
+
+
+
+a{
+  text-decoration: none;
+ }
+
+
+
+
+.font2:hover{
+  color:#DE3CCE;
+}
+
+ 
+ .footer-right{
+    width:40%;
+    height:200px;
+    width: 40%;
+    height:200px;
+    text-align: center;
+    justify-content: center;
+    margin-right:60px;
+    margin-top: 80px;
+   
+    text-transform: uppercase;
+ }
+
+ .footer-right .first{
+
+    padding:10px;
+
+ }
+
+ .footer-right .second{
+
+  padding:10px;
+
+}
+
+.footer-right .third{
+
+  padding:10px;
+}
+
+
+
+/*styles for screens that are 900 pixels wide or less*/
+@media only screen and (max-width: 900px) {}
+
+
+/*applied when the screen width is 600 pixels or less*/
+@media only screen and (max-width: 600px) {
+
+
+
+  .Footer {
+    margin-top:0px;
+    height: 1000px;
+    
+    }
+
+    .footer-content {
+      width:100%;
+      height:auto;
+      display:flex;
+      
+      flex-direction:column;
+      place-items:center;
+      
+    }
+
+
+    .footer-middle{
+    
+      margin-left:10%;
+      text-align: center;
+      justify-content: center;
+   }
+  
+
+
+  
+}

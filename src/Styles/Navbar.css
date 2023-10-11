@@ -1,0 +1,322 @@
+.navbar {
+ 
+  width: 100%;
+  height: 100px;
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  
+}
+
+.navbar .leftSide {
+  flex: 50%;
+  height: 100%;
+  display: flex;
+  gap:36px;
+  align-items: center;
+  margin-left: 80px;
+}
+
+
+.navbar .leftSide .img {
+  width: 100%;
+}
+
+.navbar .right-side {
+  flex: 50%;
+  height: 100%;
+  display: flex;
+  margin-right: 80px;
+  align-items: center;
+  justify-content: flex-end;
+
+  
+}
+
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+  margin: 20px;
+}
+
+
+.navbar a .login {
+ text-align: center;
+}
+.navbar a:hover {
+  color: #DE3CCE;
+  text-decoration: none;
+ 
+}
+ .navbar .right-side button{
+
+    border-radius: 20px;
+    cursor: pointer;
+    justify-content: center;
+    background-color: #F9FAFE;
+    height: 50px;
+    width: 150px;
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 750;
+    text-transform: uppercase;
+
+}
+.navbar .right-side button:hover {
+  background-color: #DE3CCE;
+
+}
+
+.custom-icon {
+
+  display:none;
+  
+}
+
+
+
+.custom-icon {
+
+  color: white;
+      cursor: pointer;
+    justify-content: center;
+    height: 50px;
+    width: 100px;
+    padding-top: 15px;
+    margin-left: 30px;
+  
+    
+ 
+  }
+
+  .custom-icon:hover {
+    color: #DE3CCE;
+   
+  }
+
+
+
+ 
+.navbar #open .hidden-links {
+  display: flex;
+  flex-direction: row; /* Set to 'row' to place items on the same line */
+  margin-right: 30px;
+  height:100%;
+  justify-content: center; /* Center content horizontally */
+  align-items: center;
+}
+
+
+  
+.navbar #open .hidden-links button{
+
+  border-radius: 20px;
+  cursor: pointer;
+  justify-content: center;
+  background-color: #F9FAFE;
+  height: 50px;
+  width: 150px;
+  color: black;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 750;
+  text-transform: uppercase;
+
+ 
+}
+.navbar #open .hidden-links button:hover{
+  background-color: #DE3CCE;
+}
+
+
+.navbar #close .hidden-links {
+  display: none;
+}
+
+.navbar #close .hidden-links {
+  display: none;
+}
+
+
+
+.navbar #open a {
+  width: 90px;
+  margin: 5px;
+}
+
+
+/*styles for screens that are 900 pixels wide or less*/
+@media only screen and (max-width: 900px) {
+
+
+
+
+  
+  .custom-icon {
+    display: block;
+  }
+  
+  .hidden-links {
+    display: none; /* Hide the menu list by default */
+  }
+
+  .navbar #open .hidden-links {
+    display: block;
+    position: absolute;
+    width: auto;
+    top: 20%; /* Position it below the menu button */
+    left: 0;
+    right:0;
+    
+  }
+
+  .navbar #close .hidden-links {
+    display: none;
+  }
+
+  .hidden-links ul {
+    list-style-type: none;
+    padding-left: 280px;
+ 
+    
+    
+  }
+
+  .hidden-links li {
+    
+    padding: 10px;
+  }
+
+  .hidden-links .black-item a{
+    color: #fff;
+    padding-left:10px;
+    font-weight:bolder;
+    
+  }
+  
+  .hidden-links .black-item a:hover{
+ 
+    color: #DE3CCE;
+}
+
+
+
+
+
+
+
+
+
+
+
+  
+  .navbar .right-side a {
+    display: none;
+  } 
+ 
+}
+
+/*applied when the screen width is 600 pixels or less*/
+@media only screen and (max-width: 600px) {
+
+  
+  
+
+.navbar .leftSide a  {
+  display: block;
+}
+
+
+.navbar .leftSide .desktopLogo {
+  display: block; /* Show the desktop logo */
+
+    width: 50px;
+  }
+
+
+  .navbar .right-side {
+
+  display: flex;
+  flex-direction: column; /* Set to 'row' to place items on the same line */
+  height:100%;
+  justify-content: center; /* Center content horizontally */
+  align-items: center;
+  margin-right: -100px;
+}
+
+  
+  .navbar .right-side button {
+    display: inherit;
+  }
+    
+  
+
+
+
+ 
+
+
+    .navbar .leftSide a{
+      font-size:100%;
+    }
+
+    .navbar .leftSide{
+      position: relative;
+    }
+    .navbar #open .hidden-links {
+      display: block;
+      position: absolute;
+      width: auto;
+      top: 70%; /* Position it below the menu button */
+      left: 10%;
+      right:0;
+      
+    }
+  
+    .navbar #close .hidden-links {
+      display: none;
+    }
+  
+    .hidden-links ul {
+      list-style-type: none;
+      padding-left: 200px;
+      margin:0;
+     
+      
+    }
+  
+    .hidden-links li {
+      padding: 10px;
+     
+    }
+
+    .hidden-links .black-item a{
+      color: #fff;
+      padding-left:10px;
+      font-weight:bolder;
+      
+    }
+    
+    .hidden-links .black-item a:hover{
+   
+      color: #DE3CCE;
+  }
+
+
+
+
+
+  .navbar .leftSide {
+    flex: 60%;
+    gap:25px;
+   
+  }
+  
+  
+}
+
+
+
+
+

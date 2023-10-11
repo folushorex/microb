@@ -1,0 +1,223 @@
+ 
+ 
+ .Hero{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: left;
+    background-color: black;
+    
+    }
+    
+       /*<img src={Pattern} alt="" className="Pattern"/>
+       import Pattern from "../Assets/Pattern mobile.png";
+    .Pattern img{
+        position: relative;
+        top: -100px;
+        right: -950px;
+        z-index: -2;
+       
+    }*/
+    
+    
+      .Hero-Wrapper{
+     
+        margin-left:109px;
+        margin-top:30px;
+        text-transform: uppercase;
+        color: #fff;
+      }   
+    
+       .title{
+        margin-left:-200px;
+        text-align: center;
+        font-family: Average Sans;
+        font-size: 64px;
+        font-style: normal;
+        font-weight: 400;
+      }
+    
+    .subtitle  {
+        margin-top:-30px;
+        margin-right:200px;
+    text-align: center;
+    text-transform:none;
+    line-height: 150%;
+    font-family: Actor;
+    font-weight:600;
+    }
+    
+     .line-a {
+       
+        margin-left:150px;
+     margin-top:25px;
+      }
+    
+    
+      .line-b{
+       
+        margin-left:150px;
+        margin-top:10px;
+         }
+    
+    .caption{
+       
+        margin-right:200px;
+    text-align: center;
+    margin-top:18px;
+    line-height:200%;
+    font-weight:700;
+    }
+    
+    
+    .Details{
+        margin-right:178px;
+        text-align: center;
+    margin-top:30px;
+    line-height:150%;
+    
+    text-transform: none;
+    
+    }
+    
+    .enroll-wrapper{
+        margin-left:90px;
+        margin-top:40px;
+        height:auto;
+    }
+    .small-caption{
+      
+      
+        margin:-80px;
+        font-size:15px;
+        margin-right:-150px;
+        font-family: Yaldevi Colombo SemiBold;
+        text-align:center;
+        line-height:150%;
+        text-transform: none;
+    
+    }
+      .hero-right .subtitle p {
+        
+        color: #fff;
+      }
+    
+    .hero-right{
+        display: flex;
+        flex-direction: column;
+        margin-left:100%;
+        margin-top: -576px;
+        width:  70%;
+        height:auto;
+       
+        text-align: center;
+    
+     
+    
+    }
+    
+      .hero-right .brow-image {
+        margin-top:  -300px;
+        margin-left:-185px;
+        
+       
+              
+           
+      }
+
+    
+    
+       /* CSS for desktop */
+
+
+       /*applied when the screen width is 600 pixels or less*/
+@media only screen and (max-width: 600px) {
+
+  /* Add this CSS to your existing Hero.css file or create a new one */
+
+  .Hero-Wrapper {
+    flex-direction: column-reverse; /* Stack elements vertically and reverse their order */
+  }
+
+  .hero-right {
+    order: -2; /* Move the hero-right div to the top */
+    margin-top: 20px; /* Add some spacing between the elements */
+  }
+
+  .hero-right .brow-image {
+    margin-top:  -1100px;
+    margin-left:-350px;
+
+}
+
+ 
+.subtitle  {
+  margin-top:600px;
+  margin-right:5px;
+  font-size: 18px;
+}
+
+
+
+
+.title{
+  margin-left:15px;
+
+  font-size: 50px;
+ 
+  
+}
+
+    
+.Hero-Wrapper{
+     
+  margin-left:45px;
+
+}   
+
+.line-a {
+       
+  margin-left:100px;
+
+}
+
+.line-b {
+       
+  margin-left:100px;
+
+}
+
+.caption{
+       
+  margin-right:5px;
+
+
+}
+
+.Details{
+  margin-right:10px;
+  font-size: 20px;
+  
+ 
+}
+
+.enroll-wrapper{
+  margin-left:10px;
+
+}
+.Enroll{
+  width:40%;
+}
+
+.small-caption{
+      
+      
+  margin:-70px;
+  font-size:13px;
+  margin-left:100px;
+ 
+
+}
+
+}
+ 

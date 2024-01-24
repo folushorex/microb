@@ -48,7 +48,6 @@
     }
     
      .line-a {
-       
         margin-left:150px;
      margin-top:25px;
       }
@@ -81,16 +80,14 @@
     }
     
     .enroll-wrapper{
-        margin-left:90px;
+        margin-left:20px;
         margin-top:40px;
         height:auto;
     }
     .small-caption{
-      
-      
         margin:-80px;
         font-size:15px;
-        margin-right:-150px;
+        margin-right:-100px;
         font-family: Yaldevi Colombo SemiBold;
         text-align:center;
         line-height:150%;
@@ -109,10 +106,7 @@
         margin-top: -576px;
         width:  70%;
         height:auto;
-       
         text-align: center;
-    
-     
     
     }
     
@@ -126,10 +120,35 @@
       }
 
     
-    
        /* CSS for desktop */
 
+       /*applied when the screen width is 600 pixels or less*/
+@media only screen and (max-width: 900px) {
+  
+ 
+ 
+ 
+  .line-a { 
+    margin-left:30px;
+  
+  }
+  
+  .line-b {
+         
+    margin-left:30px;
+  
+  }
+    
+       .small-caption{
+    
+        margin:-70px;
+        font-size:13px;
+        margin-left:150px;
+       
+      
+      }
 
+    }
        /*applied when the screen width is 600 pixels or less*/
 @media only screen and (max-width: 600px) {
 
@@ -162,7 +181,6 @@
 
 .title{
   margin-left:15px;
-
   font-size: 50px;
  
   
@@ -170,13 +188,11 @@
 
     
 .Hero-Wrapper{
-     
   margin-left:45px;
 
 }   
 
-.line-a {
-       
+.line-a { 
   margin-left:100px;
 
 }
@@ -210,8 +226,7 @@
 }
 
 .small-caption{
-      
-      
+    
   margin:-70px;
   font-size:13px;
   margin-left:100px;

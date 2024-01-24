@@ -5,10 +5,12 @@ import Login from "./Pages/Login";
 import GetStarted from "./Pages/GetStarted";
 import AllCourses from "./Components/AllCourses";
 import Featured from "./Components/Featured";
-
+import LushDesigns from './Components/LushDesigns';
+import Footer from "./Pages/Footer";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./Components/Navbar";
 import './App.css';
+
 
 function App() {
   return (
@@ -22,8 +24,9 @@ function App() {
           <Route path="/get-started" element={<GetStarted />} />
           <Route path="/all-courses" element={<AllCourses />} />
           <Route path="/featured" element={<Featured />} />
+          <Route path="/lush" element={<LushDesigns />} />
         </Routes>
-        
+        <Footer/>
       </Router>
     </div>
   )

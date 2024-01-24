@@ -9,20 +9,20 @@ import "../Styles/Featured.css"
 
 function Featured() {
 
- 
-
 
   return (
     <div className="Featured">
 
-        <h1 className="featured-title">
+        <h1 className="featured-title"> 
           Featured Courses</h1>
         
 
         <div className="featured-courses">
         
        
-        {FeaturedCourses.map((featuredItems,key) => {
+        {
+        
+        FeaturedCourses.map((featuredItems,key) => {
      
           return (
             <FeaturedItems
@@ -30,28 +30,22 @@ function Featured() {
             Image={featuredItems.Image}
               Name={featuredItems.Name}
                 Description={featuredItems.Description}
+                OriginalPrice={featuredItems.OriginalPrice}
+                Price={featuredItems.Price}
                 CTA={featuredItems.CTA}
-                Summary={featuredItems.Summary}
-                
+                Summary={featuredItems.Summary}  
           />
           
-         
           );
 
-         
+        
         })}
         
       <div className="more">
-      <Link to ="/allcourses">
+      <Link to ="https://wa.link/s5kivi">
         <button className="more-courses">View all Courses
            </button></Link>
-  
-     
-   
-      
            </div>
-          
-    
 
       </div>
        </div>

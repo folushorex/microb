@@ -17,16 +17,16 @@ function Navbar() {
 
       <div className="leftSide" id={openLinks ? "open" : "close"}>
         <Link to="/"> <img src={desktopLogo} alt=""/></Link>
-        <Link to="/inspiration"> Inspiration </Link>
+        <Link to="/"> Inspiration </Link>
 
 
         <div className="hidden-links">
           <ul className="dropdown">
          <li className="black-item"> {/* Apply the "black-item" class to the Login menu item */}
-          <Link className="login" to="/login"> Login </Link>
+          <Link className="/" to="/"> Login </Link>
          </li>
           <li>
-               <Link to="/getstarted"> <button className="hidden-button">Get Started</button></Link>
+               <Link to="/"> <button className="hidden-button">Get Started</button></Link>
           </li>
         </ul>
          </div> 
@@ -35,8 +35,8 @@ function Navbar() {
 
 
       <div className="right-side">
-        <Link to="/login"> Login </Link>
-        <Link to="/getstarted">
+        <Link to="/"> Login </Link>
+        <Link to="/">
           <button>Get Started</button>
         </Link>
       

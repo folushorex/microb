@@ -1,0 +1,26 @@
+
+
+.Lush{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color:black;
+    color:white;
+  }
+
+.call{
+    color: red;
+    text-align: center;
+    font: 700 14px "Poppins", sans-serif;
+    position: absolute;
+    left: 650px;
+    top: 155.75px;
+    width: 181.98px;
+    height: 60.34px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }

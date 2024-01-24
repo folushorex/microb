@@ -7,16 +7,8 @@ import "../Styles/Hero.css"
 function Home() {
   return (
         <div className="Home">
-          
       <Hero/>
       <Featured/>
-      
-  
-      
-
-
-
-
       </div>
       
 

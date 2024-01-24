@@ -1,6 +1,4 @@
 
-
-
 .Featured {
   width: 100%;
   height: auto;
@@ -10,23 +8,18 @@
   flex-direction: column;
   background-color:black;
   color:white;
-
-
 }
 
-
 .Featured .featured-title {
-  margin-top:20px;
+  margin-top:80px;
   text-align: center;
 font-family: Average Sans;
 font-size: 50px;
 font-style: normal;
 font-weight: 400;
-
 line-height: 120%; /* 60px */
 text-transform: uppercase;
 }
-
 
 .featured-courses {
   margin-top: 20px;
@@ -34,16 +27,28 @@ text-transform: uppercase;
   height: auto;
   display: grid;
   gap:10px;
- 
+ background-color: white;
   grid-template-columns: 1fr 1fr;
   place-items:center;
 }
 
-/* Featured ITEM STYLING */
+.featured-courses  {
+  margin-top: 20px;
+  width: auto;
+  height: auto;
+  display: grid;
+  gap:10px;
+ background-color: white;
+  grid-template-columns: 1fr 1fr;
+  place-items:center;
+}
 
+
+
+
+/* Featured ITEM STYLING */
 .featured-items {
   border-radius: 15px;
-
   width: 400px;
   height: 780px;
   margin: 30px;
@@ -51,7 +56,6 @@ text-transform: uppercase;
   background-color: white;
   box-shadow: 0px 3px 15px rgba(242, 240, 240, 0.5);
 }
-
 
 .featured-items:hover {
   box-shadow: 0px 3px 15px #DE3CCE;
@@ -66,14 +70,12 @@ text-transform: uppercase;
   height: 200px;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
- 
+  background-size: cover; 
 }
 
 .featured-items h1,
 .featured-items p {
   margin-left: 20px;
- 
 }
 
 
@@ -85,23 +87,18 @@ text-align: center;
 font-family: Poppins;
 font-size: 20px;
 font-style:normal;
-
 line-height: 30px; 
- 
 }
 
 .featured-items p {
-  margin-top: 40px;
+  margin-top: -20px;
  text-align: left;
  font-family: Poppins;
  font-size: 15px;
  font-style:normal;
   font-weight: 800;
  line-height: 30px; 
-  
  }
-
-
 
 .featured-items h1{
 margin-top:10px;
@@ -115,25 +112,22 @@ line-height: 120%;
 text-align:center;
 }  
 
-
 .more .more-courses{
-
  margin-top:100px;
  margin-bottom: 80px;
- Margin-left:120%;
-  border-radius: 20px;
-  cursor:pointer;
-
-  background-color: #F9FAFE;
-  height: 50px;
-  width: 200px;
-  color:black;
-  text-decoration: none;
-  font-size: 15px;
-  font-weight: 750;
-  text-transform: uppercase;
-
+ margin-left:120%;
+ border-radius: 20px;
+ cursor:pointer;
+ background-color: #F9FAFE;
+ height: 50px;
+ width: 200px;
+ color:black;
+ text-decoration: none;
+ font-size: 15px;
+ font-weight: 750;
+ text-transform: uppercase;
 }
+
 .more .more-courses:hover{
   background-color: #DE3CCE;
 }
@@ -142,24 +136,55 @@ text-align:center;
   margin-top:30px;
   margin-bottom: 80px;
    border-radius: 30px;
-  margin-left: 25%;
+  margin-left: 120px;
    cursor:pointer;
    background-color: black;
    width: 150px;
-   height: 56px;
+   height: 50px;
    color:white;
    text-decoration: none;
    font-size: 15px;
    font-weight: 750;
    text-transform: uppercase;
- 
  }
-     
+   
  .start:hover {
   box-shadow: 0px 3px 15px #DE3CCE;
   transition: 0.3s ease-in;
   cursor: pointer;
 }
+
+.featured-courses .originalprice{
+    margin-top:10px;
+    margin-left:15px;
+    font-family: Paytone One;
+    color: #DE3CCE;
+    text-decoration: line-through;
+    text-decoration-thickness: 3.5px;
+    text-decoration-color: red;
+    font-family: Paytone One;
+    font-size: 25px;
+    font-weight: bolder;
+    font-style:normal;
+    line-height: 120%; 
+    text-align:center;
+    align-items: center;
+    text-align: center;
+  }  
+
+  .featured-courses .price{
+    margin-top:10px;
+    margin-left:-20px;
+    color:#DE3CCE;
+    font-family: Paytone One;
+    font-size: 25px;
+    font-weight: bolder;
+    font-style:normal;
+    line-height: 120%; 
+    text-align:center;
+    align-items: center;
+    text-align: center;
+    }  
 
 @media only screen and (max-width: 1300px) {
   .featured-courses {
@@ -167,49 +192,48 @@ text-align:center;
   }
 }
 
+
 @media only screen and (max-width: 800px) {
   .featured-courses {
     grid-template-columns: 1fr;
   }
 }
 
-
-
-
 /*styles for screens that are 900 pixels wide or less*/
-@media only screen and (max-width: 900px) {}
+@media only screen and (max-width: 900px) {
+.more .more-courses{
+  Margin-left:25px;
+   border-radius: 20px;
+   cursor:pointer;
+   background-color: #F9FAFE;
+   height: 50px;
+   width: 200px;
+   color:black;
+   text-decoration: none;
+   font-size: 15px;
+   font-weight: 750;
+   text-transform: uppercase;
+ }
+
+ .Featured .featured-title {
+  margin-top:280px;
+  text-align: center;
+}
+
+}
 
 
 /*applied when the screen width is 600 pixels or less*/
 @media only screen and (max-width: 600px) {
 
-
-
 .Featured .featured-title {
   margin-top:100px;
-
-
 }
 
 .more .more-courses{
 margin-bottom:90px;
   margin-left:50px;
-  
- 
- 
   }
-
-
-
-  .Featured .featured-title {
-    margin-top:150px;
-  font-size: 35px;
- 
-}
-
-
-
-
 
 }
 

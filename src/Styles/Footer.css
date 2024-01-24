@@ -174,8 +174,14 @@ a{
 
 /*styles for screens that are 900 pixels wide or less*/
 @media only screen and (max-width: 900px) {}
+.footer-middle{
+  margin-top:-90px;
+}
 
+.footer-left{
+  margin-top:20px;
 
+}
 /*applied when the screen width is 600 pixels or less*/
 @media only screen and (max-width: 600px) {
 
@@ -188,24 +194,20 @@ a{
     }
 
     .footer-content {
+  
       width:100%;
       height:auto;
       display:flex;
-      
       flex-direction:column;
       place-items:center;
       
     }
 
-
     .footer-middle{
-    
+      margin-top:20px;
       margin-left:10%;
       text-align: center;
       justify-content: center;
    }
-  
-
-
-  
+ 
 }
